@@ -1,0 +1,8 @@
+Kreirati HTTP server za registraciju karata. Server prihvata dva tipa zahteva
+Prvi tip zahteva generise id karte i cuva ga u fajlu.Drugi tip zahteva pronalazi id karte u falju i ako postoji
+markira ga kao iskoriscen.Svaka karta se u fajlu predstavlja jednim redom sledeceg sadrzaja:
+- id_karte|datum izdavanja|validna
+- npr:
+    1|2019-10-01 18:03:45.476064|1
+    2|2019-10-03 14:05:23.482341|0 
+    3|2019-10-05 19:00:03:234564|1
